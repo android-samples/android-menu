@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.ac.hal.ih14a_00.menutest.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/hello"
+        android:orderInCategory="100"
+        android:title="こんにちは"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/world"
+        android:orderInCategory="100"
+        android:title="世界"
+        app:showAsAction="never"/>
+    
+</menu>
